@@ -1,0 +1,11 @@
+Carlos relata que recebeu solicitações de MFA que não reconhece e afirma ter rejeitado as tentativas. Ao mesmo tempo, há atividade suspeita envolvendo a caixa compartilhada FINANCEIRO e o servidor SRV-ARQUIVOS apresenta lentidão/intermitência.
+
+Objetivo do laboratório:
+- investigar identidade e autenticação;
+- verificar atividade e permissões no Microsoft 365;
+- analisar o estado do servidor de arquivos;
+- correlacionar ou separar os eventos com base em evidências;
+- propor remediação;
+- aplicar Policy Engine;
+- exigir aprovação humana para ações sensíveis elegíveis;
+- validar o resultado pós-ação.
