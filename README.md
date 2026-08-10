@@ -8,6 +8,14 @@
 ![LangSmith](https://img.shields.io/badge/LangSmith-Observability-1C3C3C)
 ![Status](https://img.shields.io/badge/status-laborat%C3%B3rio%20avan%C3%A7ado-orange)
 
+## 🌐 Portfólio
+
+O **SupportOps War Room** está destacado no meu portfólio profissional:
+
+👉 **[future-cloud-ai.lovable.app](https://future-cloud-ai.lovable.app)**
+
+O portfólio reúne meus projetos em suporte técnico, Microsoft 365, cloud, automação e inteligência artificial.
+
 ## Visão geral
 
 O **SupportOps War Room** é um laboratório de arquitetura agentic voltado a incidentes que podem envolver, ao mesmo tempo, **identidade e autenticação**, **Microsoft 365** e **infraestrutura**.
@@ -178,15 +186,8 @@ Essas métricas mostraram um dos próximos desafios arquiteturais: reduzir recic
 
 ```text
 supportops-war-room/
-├── agente.py
-├── agente-basico.py
-├── handoff_demo.py
-├── hybrid_demo.py
 ├── supportops_core_v3.py
-├── supportops_pro.py
 ├── supportops_warroom.py
-├── supportops_warroom_v2.py
-├── supportops_warroom_v3.py
 ├── supportops_warroom_v4.py
 ├── supportops_langsmith_v5.py
 ├── requirements.txt
@@ -197,7 +198,10 @@ supportops-war-room/
 └── outputs/
 ```
 
-Os arquivos iniciais foram mantidos para mostrar a evolução do laboratório: de agentes simples e handoffs até uma War Room com swarm, consenso, policy engine e HITL.
+**Versão principal:** `supportops_warroom_v4.py`  
+`supportops_warroom.py` contém componentes e agentes reutilizados pela arquitetura, enquanto `supportops_core_v3.py` concentra o core de investigação. `supportops_langsmith_v5.py` é o launcher com observabilidade.
+
+As versões anteriores continuam preservadas no histórico de commits do GitHub, mas o branch principal foi mantido focado na arquitetura atual.
 
 ## Configuração
 
